@@ -6,7 +6,7 @@ mkdir /app
 curl -o /tmp/backend.zip https://expense-web-app.s3.amazonaws.com/backend.zip 
 cp backend.service /etc/systemd/system/backend.service
 cd /app 
-unzip /tmp/backend.zip
+unzip -o /tmp/backend.zip
 cd /app 
 npm install 
 chmod -R 775 /app
