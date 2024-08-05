@@ -8,4 +8,4 @@
 echo Line1
 echo Line2 
 
-echo "Line3 \n Line4"
+echo -e "Line3 \n Line4"
