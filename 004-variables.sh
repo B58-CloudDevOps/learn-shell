@@ -14,7 +14,7 @@
 
 # In bash, everything will be considered as string by default.
 
-a=10 
+a=10                                # ( a is key and 10 is the value )
 b=1.5
 name=mike 
 
@@ -22,3 +22,9 @@ name=mike
 
 echo a
 echo b
+
+# $ is a special variable and this helps you in printing the value of the variable 
+# Using $ we can access the value of variable 
+
+echo "Value of a is $a"
+echo "Value of a is $a"
