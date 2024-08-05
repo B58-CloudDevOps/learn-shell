@@ -3,7 +3,6 @@
 # Special Variables are the pre-defined variables with specific special pre-defined powers.
 
 # Special Variables are $0 to $9, $* , $@, $# ,  $$
-
 # Can you create special variables on Bash ? 100% No , you can just use the special variables that are offered.
 
 a=1000 
