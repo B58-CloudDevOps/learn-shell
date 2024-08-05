@@ -27,5 +27,5 @@ echo "$NAME is from $PROJECT Project"
 echo $0     # prints the scriptName
 echo "Number Of Arguments in script are $#"     # Prints the no of arguments used in the script 
 echo $?     # Prints the exit code of the previous command 
-echo $*     # Prints all the arguments user
-echo $@     # Prints all the arguments user
+echo "Arguments In The Script Are $*"      # Prints all the arguments used in the script
+echo "Arguments In The Script Are $@"     # Prints all the arguments used in the script
