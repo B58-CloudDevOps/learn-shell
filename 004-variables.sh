@@ -28,3 +28,11 @@ echo b
 
 echo -e "Value of a is \e[32m $a \e[0m"
 echo -e "Value of b is \e[32m $b \e[0m"
+
+# Whenever you're using special variables, single quote is going to nullify the speciality of the special varaible
+
+echo ${a}
+echo $a 
+
+echo "${a}"
+echo '${a}'    
