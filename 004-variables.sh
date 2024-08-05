@@ -36,3 +36,7 @@ echo $a
 
 echo "${a}"
 echo '${a}'    
+
+### If try to print a variable that is not declared, what will happen, bash considers thas a null value 
+
+echo "value of z is $z"
