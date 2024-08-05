@@ -27,4 +27,4 @@ echo b
 # Using $ we can access the value of variable 
 
 echo "Value of a is $a"
-echo "Value of a is $a"
+echo "Value of b is $b"
