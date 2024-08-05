@@ -25,7 +25,7 @@ echo "$NAME is from $PROJECT Project"
 # ( You supply up to 9 arguments)
 
 echo $0     # prints the scriptName
-echo "Arguments used are $#"     # Prints the arguments used in the script 
+echo "Number Of Arguments in script are $#"     # Prints the no of arguments used in the script 
 echo $?     # Prints the exit code of the previous command 
 echo $*     # Prints all the arguments user
 echo $@     # Prints all the arguments user
