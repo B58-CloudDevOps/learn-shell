@@ -21,3 +21,4 @@ name=mike
 # How to access the variable ? 
 
 echo a
+echo b
