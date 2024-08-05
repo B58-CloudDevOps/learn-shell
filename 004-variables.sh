@@ -26,5 +26,5 @@ echo b
 # $ is a special variable and this helps you in printing the value of the variable 
 # Using $ we can access the value of variable 
 
-echo -e "Value of a is \e[31m $a \e[0m"
-echo -e "Value of b is \e[31m $b \e[0m"
+echo -e "Value of a is \e[32m $a \e[0m"
+echo -e "Value of b is \e[32m $b \e[0m"
