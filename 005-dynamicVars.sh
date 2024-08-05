@@ -1,5 +1,5 @@
 #!/bin/bash 
 
-DATE="05AUG2024"
+DATE="03AUG2024"
 
 echo "Todays date is $DATE"
