@@ -8,6 +8,7 @@ DEPARTMENT=$2
 echo "Todays date is $DATE"
 
 echo "Script Executed By $EXEC"
+echo "$EXEC is from $DEPARTMENT"
 
 # Arguments  : These arguments help sin fetching the values from the command line 
 # These are mostly used to allow the users to supply the value or to override the values
