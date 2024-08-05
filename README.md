@@ -22,3 +22,10 @@ Non-Fucntional Requirement : Knowing Rules, when to stop, when to start, which s
 1) Code should always be dry                                        ( That means there should no repeatable code ) 
 2) Secrets should not hardcoded in the code                         (  Usernames & Password should never be inside the code )
 3) When you run the same code more than once, it should not fail    
+
+
+
+# Case Standard:
+1) STUDENT_NAMES 
+2) studentNames   ( camelCase )
+3) StudentNames   ( SnakeCase )
