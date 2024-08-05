@@ -27,7 +27,6 @@ echo -e "\e[35m This shows Magneta color \e[0m"
 #### How can we add a backGround color ? Here is the syntax 
 # echo -e "\e[43;31m I am printing Text with a backGround Color \e[0m"
 
-
 echo -e "\e[46;31m I am printing Text with a backGround color \e[0m"
 
 # Since in bash and shell, there are lot of versions, both of the syntaxes are valid, in case if anyone doesn't work, prefer to use the other one.
