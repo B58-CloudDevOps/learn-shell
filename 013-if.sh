@@ -26,11 +26,12 @@ if [ "$ACTION" = "start" ] ; then
 
 else if  [ "$ACTION" = "stop " ] ; then 
     echo -e "\e[31m Backed is stopping \e[0m"
-    exit 3
+    exit 1
 
 else if  [ "$ACTION" = "restart " ] ; then 
     echo -e "\e[31m Backed is restarting \e[0m"
-    exit 3
+    exit 2
 else 
     echo -e "\e[31m Entered Option is invalid --> Valid Options are start or stop or restart only \e[0m"
+    exit 3 
 fi  
