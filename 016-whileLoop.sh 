@@ -3,3 +3,7 @@
 #while Exression ;
 #    commands to execute
 #done
+
+while true ; do
+    echo -e "\t \n While Loop Example"
+done 
