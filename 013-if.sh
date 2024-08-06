@@ -6,5 +6,5 @@ ACTION=$1
 
 if [ "$ACTION" = "start" ] ; then 
     echo -e "\e[32m Backed is starting \e[0m"
-    echo 0
+    exit 0
 fi  
