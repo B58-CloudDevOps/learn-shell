@@ -24,11 +24,11 @@ if [ "$ACTION" = "start" ] ; then
     echo -e "\e[32m Backed is starting \e[0m"
     exit 0
 
-else if  [ "$ACTION" = "stop " ] ; then 
+elif  [ "$ACTION" = "stop" ] ; then 
     echo -e "\e[31m Backed is stopping \e[0m"
     exit 1
 
-else if  [ "$ACTION" = "restart " ] ; then 
+elif  [ "$ACTION" = "restart" ] ; then 
     echo -e "\e[31m Backed is restarting \e[0m"
     exit 2
 else 
