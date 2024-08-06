@@ -8,20 +8,19 @@
 # 4) Functions                      ( Use functions when you have a common patther and this pattern using functions can be effectively)
 
 # How to declare a function ?
-func() {
-    echo "hai"
-    echo "hello"
-    echo "ola"
-    who
-    uptime 
-    df -h 
+stat() {
+    echo "Todays date is $(date +%F)"
+    echo "load average on the system is $(uptime)"
+    echo "Run Level Of The System is $(runlevel)"
 }
 
 echo "Today we are learning bash"
 # This is how we can call a function.
 
-func 
+stat 
 
 echo "I can call one more time"
 
-func 
+stat 
+
+# Functions play a very important role in keeping the code dry.
